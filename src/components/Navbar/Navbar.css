@@ -116,6 +116,10 @@
 }
 
 @media screen and (max-width: 650px) {
+  .app__navbar-smallscreen {
+    display: flex;
+  }
+
   .app__navbar {
     padding: 1rem;
   }

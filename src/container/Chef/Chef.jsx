@@ -12,7 +12,7 @@ const Chef = () => (
 
     <div className="app__wrapper_info">
       <SubHeading title="Chef's Word" />
-      <h1 className="headertext__cormorant">What we believe in</h1>
+      <h1 className="headtext__cormorant">What we believe in</h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
@@ -21,15 +21,17 @@ const Chef = () => (
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
             quaerat tempore velit.
           </p>
-          <p className="p__opensans">
-            Delectus sequi suscipit quia, laudantium aut soluta. Quo voluptatem
-            quasi facilis aspernatur impedit?
-          </p>
-          <div className="app__chef-sign">
-            <p>Kevin Mcalister</p>
-            <p className="p__opensans">Chef & Founder</p>
-            <img src={images.sign} alt="sign" />
-          </div>
+        </div>
+        <p className="p__opensans">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
+          delectus vero quod dicta cupiditate aspernatur molestias, labore earum
+          officia recusandae natus ab, reprehenderit soluta quas, consequuntur
+          sequi. Nemo, libero sed!
+        </p>
+        <div className="app__chef-sign">
+          <p>Kevin Mcalister</p>
+          <p className="p__opensans">Chef & Founder</p>
+          <img src={images.sign} alt="sign" />
         </div>
       </div>
     </div>

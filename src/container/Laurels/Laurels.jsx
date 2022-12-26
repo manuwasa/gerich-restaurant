@@ -8,7 +8,7 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
   return (
     <div className="app__laurels_awards-card">
       <img src={imgUrl} alt="award" />
-      <div className="app__laurels_award-card_content">
+      <div className="app__laurels_awards-card_content">
         <p className="p__cormorant" style={{ color: "#dccA87" }}>
           {title}
         </p>
@@ -30,6 +30,7 @@ const Laurels = () => (
         })}
       </div>
     </div>
+
     <div className="app__wrapper_img">
       <img src={images.laurels} alt="laurels" />
     </div>
